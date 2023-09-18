@@ -1,0 +1,154 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Verdana;
+    font-size: 14px;
+}
+.containerhead .navtop {
+    display: flex;
+    background-color: #25384F;
+    height: 50px;
+}
+.containerhead .navtop .navtoplist .active {
+    font-weight: 600;
+    color:#E2E4E7;
+    border-bottom: 5px solid #547C9A;
+
+}
+.containerhead .navtop  .navtoplist ul{
+    display: flex;
+      
+}
+
+.containerhead .navtop .navtoplist ul  li{
+    margin-left: 5px;
+    padding-top: 15px;
+    list-style-type: none;
+}
+
+.containerhead .navtop .navtoplist ul li a {
+    text-decoration: none;
+    color: #6A9DBF;
+    font-weight: 500;
+
+}
+.containerhead .navtop .navtoplist .bordure li   {
+    padding: 10px 20px 5px;
+    border-right: 1px solid #4f5051;
+
+}
+ .containerhead .navtop .navtoplist .bordure li:last-child {
+    border-right: none;
+
+} 
+
+.containerhead .navtop .navright{
+    display: flex;
+    margin-left:50px;
+} 
+.containerhead .navtop .navright .connexion{
+    
+    background-color: #374F6C;
+    border: none; 
+    padding: 15px;
+    color:  #6A9DBF;;
+    
+}
+.containerhead .navtop .navright .essai {
+
+    background-color: #CEDD3E;
+    border: 0 solid #25384F;
+    padding: 15px;
+    padding-top: 10px;
+    color: #557159;
+    cursor: pointer;
+    
+}
+.containerhead .navtop .navright .icon {
+    padding-top: 15px;
+    padding-left: 30px;
+    color: #557159;
+
+}
+.containerhead .nav{
+    display: flex;
+}
+.containerhead .nav .menu ul {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 100px;
+    text-decoration: none;
+}
+.containerhead .nav .menu ul li {
+    margin-left: 40px;
+    list-style-type: none;
+    
+
+}
+.containerhead .nav .menu ul li a {
+    text-decoration: none;
+    color: #9AA3AE;
+    font-weight: 500;
+
+}
+.imagebody .picture{
+    width: 100%; 
+    height: 330px; 
+    position: relative;
+
+}
+.textbody{
+    position: absolute;
+    top: 200px;
+    width: 600px;
+    height: 400px;
+    left: 100px;
+}
+.textbody .text{
+    font-weight: 900;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.textbody .text1 {
+    font-weight: 200;
+    font-size: small;
+}
+.divboutton .boutton{
+    position: absolute;
+    background-color: #CEDD3E;
+    color: #2B4C5F;
+    border: none;
+    left: 100px;
+    bottom: 180px;
+    padding: 10px;
+}
+.textimage {
+    display: flex;
+}
+.textimage .divtext .ptext{
+    color: #315576;
+    font-weight: 600;
+    font-size: large;
+
+}
+.textimage .divtext{
+    margin-top: 50px;
+    margin-right: 300px;
+    margin-left: 230px;
+    margin-bottom: 60px;
+
+}
+.textimage .divtext .patext , .textimage .divtext .patext strong{
+   
+    /* font-size:xx-small; */
+    font-size: x-small;
+
+}
+
+.textimage .imagetext .imagetext1{
+    margin-top: 70px;
+    margin-left: 300px;
+    height: 40%;
+    width: 60%;
+}
+

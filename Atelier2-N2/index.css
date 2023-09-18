@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #F7EACB;
+}
+/* .nav{
+    background: url(separateur.png) repeat-x bottom;
+} */
+/* .navbar{
+    text-align: right;
+} */
+
+
+/* ------------------css header de la page----------------- */
+
+.container .nav{
+    display: flex;
+}
+.container .nav .picturelogo .picture{
+    width: 70%;
+    height: 50%;
+    margin-top: 20px;
+    margin-left: 40px;
+
+}
+
+.container .nav .navbar ul {
+    display: flex;
+} 
+.container .nav .navbar ul li{
+    list-style: none;
+     margin-left: 340px; 
+    margin-top: 80px;
+    margin-right: -270px; 
+    
+}  
+a:hover {
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+.container .nav .navbar ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+.home{
+    color: black;
+}
+.active{
+    border-bottom: 3px solid #760001;
+    color: #760001 ;
+}
+
+/* ---------------------fin css header------------------- */
+
+
+/* ---------------------css trait separateur--------------- */
+.container .trait .trait1{
+    border-style: dashed;
+    color: #760001;
+    font-size: x-large;
+    margin-bottom: 50px;
+    border-width: 3px;
+    width: 90%;
+    margin-left: 50px;
+    opacity: 0.3;
+}
+/* ---------------------fin code css trait  separateur----------------  */
+
+
+/* ----------------------css corps dd la page-------------------------- */
+.corpspage{
+    margin-top: -80px;
+}
+.container .corpspage .bridge .pont{
+    position: relative;
+    width: 90%;
+    height: 300px;
+    margin-top: -20px;
+    margin-left: 5%;
+    margin-right: -10%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px #1c1a19;
+}
+ .floute {
+    position: absolute;
+   background-color:#192124;
+   color: whitesmoke;
+   bottom: 143px;
+   left:5% ;
+   border-radius: 15px;
+   padding: 15px;
+   width: 87.7%;
+   opacity: 0.8;
+}
+.voirarticle{
+    position: absolute;
+    background-color:#760001;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 145px; 
+    right: 75px;
+    border: 0.5px solid #760001;
+    margin: 6px;
+    width: 120px;
+}
+.icon{
+    width: 7%;
+    height: 6%;
+    margin-bottom: -12px;
+}
+h1{
+    margin-bottom: 20px;
+    color: #716F68;
+}
+.texteimage{
+    display: flex;
+}
+.texte{
+    width: 64.6%;
+    margin-left: 5%;
+    margin-top: 2%;
+    color: #716F68;
+    margin-bottom: 30px;
+}
+.image{
+    background-color: #6F6A63;
+    width: 300px;
+    height: 380px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+span{
+    color:red;
+    border-bottom: 2px solid red;
+}
+h2{
+    text-align: center;
+    color: #D9D9D8;
+    margin-bottom: 10px;
+}
+#fleche_bulle {
+    position: absolute;
+    bottom: -70px; 
+    left: 887px; 
+}
+#photo_zozor {
+    text-align: center;
+}
+
+#photo_zozor img {
+    border: 1px solid #181818;
+}
+.image p{
+    text-align: center;
+    margin-top: 13px;
+    color: #D9D9D8;
+}
+.image img{
+    margin-right: 7px;
+}
+/* ----------------fin css corps de la page-------------------  */
+
+
+/* ----------------css du footer-------------- */
+footer {
+    background: url('images/icon_top.png') no-repeat top center;
+    margin-top: -60px; 
+    padding-bottom:50px ;
+    position: relative;
+
+}
+footer h1{
+    font-size: x-large;
+}
+
+.tweet,.mesphotos,.mesamis {
+    display: inline-block;
+    /* vertical-align:alignement vertical d'une zone unline-block */
+     vertical-align: top; 
+    margin-top: 50px;
+}
+.tweet {
+    width: 30%;
+    margin-left: 30px;
+}
+
+.mesphotos {
+    width: 35%;
+}
+.mesphotos img{
+    border: 1px solid #181818;
+    margin-right: 2px;
+} 
+.mesamis {
+    width: 31%;
+}
+.mesamis ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    list-style-image: url(images/iconliste.png);
+    padding-left: 2px;
+}
+.mesamis a{
+    text-decoration: none;
+    color: #760001;
+}
